@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
 
                 switch = 1
 
-                resume_button.text= "再生"
+                resume_button.text= "訂正"
 
                back_button.setEnabled(false)
                next_button.setEnabled(false)
@@ -99,7 +99,7 @@ class MainActivity : AppCompatActivity() {
         } else if(switch == 1) {
 
 
-                resume_button.text= "停止"
+                resume_button.text= "再生"
 
 
                 back_button.setEnabled(true)
