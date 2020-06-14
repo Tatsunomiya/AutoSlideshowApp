@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
 
                 switch = 1
 
-                resume_button.text= "訂正"
+                resume_button.text= "停止"
 
                back_button.setEnabled(false)
                next_button.setEnabled(false)
